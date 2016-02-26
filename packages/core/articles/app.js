@@ -24,7 +24,7 @@ Articles.register(function(app, auth, database, circles, swagger) {
     'roles': ['authenticated'],
     'title': 'Articles',
     'link': 'all articles'
-  });
+  }); 
   Articles.menus.add({
     'roles': ['authenticated'],
     'title': 'Create New Article',
